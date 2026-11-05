@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Retiro de Afore por desempleo y Pensión IMSS | AVANZA</title>
+  <meta name="description" content="Retiro de Afore por desempleo con prevalidación gratuita. Te asesoramos en pensión IMSS, viudez, Mejoravit y corrección de datos. Escríbenos por WhatsApp.">
+  <meta name="theme-color" content="#021340">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+
+  <!-- Open Graph (la imagen debe pasar a URL absoluta cuando exista el dominio de producción) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_MX">
+  <meta property="og:site_name" content="AVANZA Consultoría Financiera">
+  <meta property="og:title" content="Retiro de Afore por desempleo y Pensión IMSS | AVANZA Consultoría Financiera">
+  <meta property="og:description" content="Prevalidación gratuita para tu retiro de Afore por desempleo, pensión IMSS, pensión por viudez, Mejoravit en efectivo y corrección de datos. Te acompañamos en cada paso.">
+  <meta property="og:image" content="assets/logo-avanza.jpg">
+  <meta property="og:image:width" content="1189">
+  <meta property="og:image:height" content="662">
+  <meta property="og:image:alt" content="Logotipo de AVANZA consultoría financiera">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Retiro de Afore por desempleo y Pensión IMSS | AVANZA">
+  <meta name="twitter:description" content="Prevalidación gratuita para tu retiro de Afore por desempleo, pensión IMSS, viudez, Mejoravit y corrección de datos. Escríbenos por WhatsApp.">
+  <meta name="twitter:image" content="assets/logo-avanza.jpg">
+  <meta name="twitter:image:alt" content="Logotipo de AVANZA consultoría financiera">
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Tipografías: Sora (títulos geométricos, a juego con las letras angulares del logo) y Manrope (texto) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Los estados ocultos de las animaciones solo existen si hay JavaScript -->
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- anime.js (versión fija, desde jsdelivr). La página se ve completa aunque la CDN falle -->
+  <script defer src="https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js"></script>
+  <script defer src="script.js"></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FinancialService",
+    "name": "AVANZA Consultoría Financiera",
+    "description": "Consultoría financiera que acompaña en el retiro de Afore por desempleo, pensión IMSS, pensión por viudez, Mejoravit en efectivo y corrección de datos, con prevalidación y asesoría gratuita.",
+    "telephone": "+524424536038",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Plaza Alameda",
+      "addressCountry": "MX"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "10:00",
+        "closes": "19:00"
+      }
+    ],
+    "sameAs": ["https://www.facebook.com/share/19iYEbYrXS/"],
+    "hasMap": "https://maps.app.goo.gl/CWQzp2diq2K6Z6kbA?g_st=aw",
+    "knowsAbout": ["Retiro por desempleo", "Mejoravit en efectivo", "Pensión IMSS", "Pensión por viudez", "Corrección de datos"]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Qué necesito para el retiro por desempleo de mi Afore?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Los requisitos son tres: no estar laborando con seguro social, haber cotizado mínimo de 2 a 3 años y no haber realizado un retiro en los últimos 5 años. Si tienes dudas sobre alguno, la prevalidación gratuita lo revisa contigo." }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cuánto cuesta la prevalidación?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Nada. La prevalidación es gratuita y sin compromiso: revisamos si cumples con los requisitos antes de que decidas cualquier cosa. La asesoría también es gratuita y personalizada." }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Qué trámites pueden ayudarme a resolver?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Te acompañamos en el retiro por desempleo de tu Afore, Mejoravit en efectivo, pensión IMSS, pensión por viudez y corrección de datos y actualización de documentos." }
+      },
+      {
+        "@type": "Question",
+        "name": "Me dijeron que no tengo derecho a una pensión. ¿Aún puedo hacer algo?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Cada caso es distinto. Revisamos tu historial y tus datos para entender qué pasó y qué opciones tienes. Escríbenos y lo analizamos contigo, sin costo y sin compromiso." }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cómo agendo una cita y cuál es el horario?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Atendemos de lunes a viernes de 10:00 a 19:00 h en Plaza Alameda. Si prefieres mayor comodidad, agenda tu cita por WhatsApp y revisamos la disponibilidad de tiempo." }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Mi información está protegida?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Tu información es parte de tu tranquilidad y la protegemos. Trámite seguro, rápido y confiable: así trabajamos en AVANZA." }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ═════════ Sprite de íconos y degradados (se reutiliza con <use>) ═════════ -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <linearGradient id="g-verde" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#d2f58b"/>
+        <stop offset="1" stop-color="#6aa312"/>
+      </linearGradient>
+      <linearGradient id="g-blanco" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#ffffff"/>
+        <stop offset="1" stop-color="#b3c9f5"/>
+      </linearGradient>
+      <linearGradient id="g-azul" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#2f6bff"/>
+        <stop offset="1" stop-color="#04389a"/>
+      </linearGradient>
+    </defs>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 4.6-3 8.1-7 10-4-1.9-7-5.4-7-10V6l7-3z"/><path d="M9 12l2 2 4-4"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-doc" viewBox="0 0 24 24"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5M10 13h6M10 17h4"/></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="M4 11l8-7 8 7v9H4z"/><path d="M10 20v-6h4v6"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 017-2.5A4 4 0 0119 10c0 5.6-7 10-7 10z"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><circle cx="17" cy="9" r="2.4"/><path d="M16 14.2c2.9.2 5 2.4 5 5.8"/></symbol>
+    <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 012-2h2a2 2 0 012 2v2M3 13h18"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5A7 7 0 005 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 018 0v3"/></symbol>
+    <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.4"/></symbol>
+    <symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 3L5 14h6l-1 7 8-11h-6z"/></symbol>
+    <symbol id="i-id" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="11" r="2"/><path d="M6 16c.5-1.5 1.7-2.3 3-2.3s2.5.8 3 2.3M14 10h4M14 14h3"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l5 5"/></symbol>
+    <symbol id="i-fb" viewBox="0 0 24 24"><path d="M14 8.5V7c0-.8.2-1.2 1.3-1.2H17V3h-2.4C11.9 3 10.5 4.5 10.5 6.9v1.6H8v3h2.5V21H14v-9.5h2.4l.4-3z"/></symbol>
+    <symbol id="i-wa" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></symbol>
+  </svg>
+
+  <!-- ═════════ Cargador (spinner). Se oculta solo y tiene respaldo en CSS ═════════ -->
+  <div id="cargador" class="cargador" role="status" aria-live="polite" aria-label="Cargando AVANZA">
+    <div class="cargador__nucleo">
+      <svg class="cargador__anillo" viewBox="0 0 120 120" aria-hidden="true">
+        <circle class="pista" cx="60" cy="60" r="52"/>
+        <circle class="avance" cx="60" cy="60" r="52" pathLength="100"/>
+      </svg>
+      <svg class="cargador__marca" viewBox="0 0 200 200" aria-hidden="true">
+        <path class="trazo" d="M14 172 L100 24 L186 172 L152 172 L100 82 L48 172 Z"/>
+        <path class="flecha" d="M66 172 L100 112 L134 172 L113 172 L100 148 L87 172 Z"/>
+      </svg>
+    </div>
+    <div class="marca marca--cargador">
+      <img src="assets/logo-avanza.jpg" width="1189" height="662" alt="AVANZA consultoría financiera">
+    </div>
+    <p class="cargador__texto"><span data-cargador-pct>0</span>% · Avanzando contigo</p>
+  </div>
+
+  <div class="progreso" aria-hidden="true"><span></span></div>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+  <!-- ═════════ Encabezado ═════════ -->
+  <header class="cabecera" id="cabecera">
+    <div class="contenedor cabecera__in">
+      <a class="marca" href="#inicio" aria-label="AVANZA consultoría financiera, ir al inicio">
+        <img src="assets/logo-avanza.jpg" width="1189" height="662" alt="AVANZA consultoría financiera">
+      </a>
+      <nav class="menu" id="menu" aria-label="Navegación principal">
+        <ul>
+          <li><a href="#rutas">Trámites</a></li>
+          <li><a href="#retiro">Retiro de Afore</a></li>
+          <li><a href="#metodo">Cómo avanzamos</a></li>
+          <li><a href="#historias">Historias</a></li>
+          <li><a href="#faq">Preguntas</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <a class="btn btn--primario btn--chico menu__cta" href="#contacto" data-wa data-msg="Hola, vi la página de AVANZA y quiero mi prevalidación gratuita. ¿Me pueden orientar?">
+          Quiero mi prevalidación
+        </a>
+      </nav>
+      <button class="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="contenido">
+
+    <!-- ═════════ 1 · HERO ═════════ -->
+    <section class="hero" id="inicio" aria-labelledby="hero-titulo">
+      <div class="hero__fondo" aria-hidden="true">
+        <span class="aurora aurora--1"></span>
+        <span class="aurora aurora--2"></span>
+        <span class="aurora aurora--3"></span>
+        <div class="hero__rejilla"></div>
+        <canvas class="hero__lienzo" id="lienzo-hero"></canvas>
+      </div>
+
+      <div class="contenedor hero__grid">
+        <div class="hero__texto">
+          <p class="etiqueta" data-in style="--o:0"><i></i> AVANZA · Consultoría financiera</p>
+          <h1 id="hero-titulo">
+            <span class="linea"><span style="--l:0">Lo que trabajaste</span></span>
+            <span class="linea"><span style="--l:1">ya es <em class="brillo">tuyo.</em></span></span>
+            <span class="linea"><span style="--l:2">Avanza en tu retiro de Afore.</span></span>
+          </h1>
+          <p class="hero__sub" data-in style="--o:2">
+            Te acompañamos en tu <strong>retiro de Afore por desempleo</strong>, tu <strong>pensión del IMSS</strong>,
+            <strong>Mejoravit en efectivo</strong> y la <strong>corrección de tus datos</strong>.
+            Primero revisamos tu caso, sin costo y sin compromiso.
+          </p>
+          <div class="hero__acciones" data-in style="--o:3">
+            <a class="btn btn--primario btn--grande" href="#contacto" data-mag data-wa data-msg="Hola, vi la página de AVANZA y quiero mi prevalidación gratuita. ¿Me pueden orientar?">
+              Quiero mi prevalidación gratis
+              <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow"/></svg>
+            </a>
+            <a class="btn btn--fantasma btn--grande" href="#rutas" data-mag>Descubre tu trámite</a>
+          </div>
+          <ul class="hero__fichas" data-in style="--o:4">
+            <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-shield"/></svg> Trámite seguro y confiable</li>
+            <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-bolt"/></svg> Menos vueltas, más resultados</li>
+            <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-users"/></svg> Asesoría personalizada</li>
+          </ul>
+        </div>
+
+        <!-- Escena 3D decorativa: monolito de chevrones + tarjetas flotantes -->
+        <div class="escena" data-inclinar aria-hidden="true">
+          <div class="escena__giro">
+            <div class="orbita orbita--1"><i></i></div>
+            <div class="orbita orbita--2"><i></i></div>
+
+            <div class="monolito">
+              <div class="capa capa--fantasma"><svg viewBox="0 0 200 200"><path d="M14 172 L100 24 L186 172 L152 172 L100 82 L48 172 Z"/></svg></div>
+              <div class="capa capa--azul"><svg viewBox="0 0 200 200"><path d="M14 172 L100 24 L186 172 L152 172 L100 82 L48 172 Z"/></svg></div>
+              <div class="capa capa--linea"><svg viewBox="0 0 200 200"><path d="M14 172 L100 24 L186 172 L152 172 L100 82 L48 172 Z"/></svg></div>
+              <div class="capa capa--blanca"><svg viewBox="0 0 200 200"><path d="M14 172 L100 24 L186 172 L152 172 L100 82 L48 172 Z"/></svg></div>
+              <div class="capa capa--flecha"><svg viewBox="0 0 200 200"><path d="M66 172 L100 112 L134 172 L113 172 L100 148 L87 172 Z"/></svg></div>
+            </div>
+
+            <div class="tarjeta tarjeta--a">
+              <div class="tarjeta__in" style="--k:0">
+                <span class="tarjeta__ico"><svg class="ico" viewBox="0 0 24 24"><use href="#i-check"/></svg></span>
+                <span><small>Prevalidación</small><b>Gratuita</b></span>
+              </div>
+            </div>
+
+            <div class="tarjeta tarjeta--b">
+              <div class="tarjeta__in" style="--k:1">
+                <small>Retiro por desempleo</small>
+                <span class="tarjeta__hasta">Hasta</span>
+                <b class="tarjeta__monto">$35,192<i>.00</i></b>
+                <svg class="tarjeta__linea" viewBox="0 0 120 34" preserveAspectRatio="none">
+                  <polyline points="2,30 22,24 40,26 62,14 84,17 118,3"/>
+                </svg>
+              </div>
+            </div>
+
+            <div class="tarjeta tarjeta--c">
+              <div class="tarjeta__in" style="--k:2">
+                <small>Tu caso</small>
+                <span class="ticker">
+                  <span style="--t:0">Revisando requisitos…</span>
+                  <span style="--t:1">Requisitos en orden ✓</span>
+                  <span style="--t:2">Listo para avanzar ▲</span>
+                </span>
+                <span class="barra"><i></i></span>
+              </div>
+            </div>
+
+            <span class="pastilla pastilla--1">Pensión IMSS</span>
+            <span class="pastilla pastilla--2">Mejoravit</span>
+            <span class="pastilla pastilla--3">Pensión por viudez</span>
+          </div>
+        </div>
+      </div>
+
+      <a class="hero__bajar" href="#enfoque" aria-label="Seguir bajando">
+        <span>Desliza</span><i></i>
+      </a>
+    </section>
+
+    <!-- ═════════ 2 · CINTA CONTINUA ═════════ -->
+    <div class="cinta" aria-label="Trámites que atendemos">
+      <div class="cinta__pista">
+        <ul>
+          <li>Retiro por desempleo <svg class="chev" viewBox="0 0 200 200" aria-hidden="true"><use href="#emblema-mono"/></svg></li>
+          <li>Pensión IMSS <svg class="chev" viewBox="0 0 200 200" aria-hidden="true"><use href="#emblema-mono"/></svg></li>
+          <li>Pensión por viudez <svg class="chev" viewBox="0 0 200 200" aria-hidden="true"><use href="#emblema-mono"/></svg></li>
+          <li>Mejoravit en efectivo <svg class="chev" viewBox="0 0 200 200" aria-hidden="true"><use href="#emblema-mono"/></svg></li>
+          <li>Corrección de datos <svg class="chev" viewBox="0 0 200 200" aria-hidden="true"><use href="#emblema-mono"/></svg></li>
+          <li>Prevalidación gratuita <svg class="chev" viewBox="0 0 200 200" aria-hidden="true"><use href="#emblema-mono"/></svg></li>
+        </ul>
+        <ul aria-hidden="true">
+          <li>Retiro por desempleo <svg class="chev" viewBox="0 0 200 200"><use href="#emblema-mono"/></svg></li>
+          <li>Pensión IMSS <svg class="chev" viewBox="0 0 200 200"><use href="#emblema-mono"/></svg></li>
+          <li>Pensión por viudez <svg class="chev" viewBox="0 0 200 200"><use href="#emblema-mono"/></svg></li>
+          <li>Mejoravit en efectivo <svg class="chev" viewBox="0 0 200 200"><use href="#emblema-mono"/></svg></li>
+          <li>Corrección de datos <svg class="chev" viewBox="0 0 200 200"><use href="#emblema-mono"/></svg></li>
+          <li>Prevalidación gratuita <svg class="chev" viewBox="0 0 200 200"><use href="#emblema-mono"/></svg></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ═════════ 3 · MANIFIESTO (texto que se ilumina con el scroll) ═════════ -->
+    <section class="manifiesto" id="enfoque" aria-labelledby="enfoque-titulo">
+      <div class="manifiesto__fondo" aria-hidden="true">
+        <span class="manifiesto__chev" data-parallax="0.12"><svg viewBox="0 0 200 200"><use href="#emblema-mono"/></svg></span>
+      </div>
+      <div class="contenedor">
+        <p class="sobretitulo rev">Tu esfuerzo cuenta</p>
+        <h2 class="manifiesto__texto" id="enfoque-titulo" data-palabras>
+          Trabajaste años. Cotizaste. Aportaste. Y cuando llega el momento de reclamar lo que te corresponde,
+          aparecen los formatos, las filas y los «no se puede». En <strong>AVANZA</strong> convertimos ese laberinto
+          en un camino claro: <strong>revisamos tu caso, te decimos la verdad y te acompañamos hasta el final.</strong>
+        </h2>
+
+        <ul class="principios">
+          <li class="principio rev" style="--d:0s">
+            <span class="principio__ico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-search"/></svg></span>
+            <h3>Primero revisamos</h3>
+            <p>Prevalidación gratuita: sabes si cumples los requisitos antes de decidir cualquier cosa.</p>
+          </li>
+          <li class="principio rev" style="--d:.1s">
+            <span class="principio__ico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-users"/></svg></span>
+            <h3>Nadie camina solo</h3>
+            <p>Asesoría personalizada: estamos contigo en cada paso de tu trámite, de principio a fin.</p>
+          </li>
+          <li class="principio rev" style="--d:.2s">
+            <span class="principio__ico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-lock"/></svg></span>
+            <h3>Tu información, protegida</h3>
+            <p>Protegemos tu información y tu tranquilidad. Trámite seguro, rápido y confiable.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ═════════ 4 · TRÁMITES (tarjetas que se apilan al hacer scroll) ═════════ -->
+    <section class="rutas" id="rutas" aria-labelledby="rutas-titulo">
+      <div class="contenedor">
+        <div class="encabezado rev">
+          <p class="sobretitulo">Cinco caminos, un mismo acompañamiento</p>
+          <h2 class="titulo" id="rutas-titulo">¿Qué trámite de Afore o pensión necesitas resolver <em>hoy</em>?</h2>
+          <p class="lead">Elige tu trámite y cuéntanos tu caso. Nosotros nos encargamos de que el proceso sea claro, ágil y sin vueltas innecesarias.</p>
+        </div>
+
+        <div class="rutas__lista">
+
+          <article class="ruta" id="ruta-retiro" style="--acento:#7bb61a;--acento-2:#bfe56a;--i:0">
+            <div class="ruta__cuerpo">
+              <p class="ruta__num"><b>01</b> / 05</p>
+              <h3 class="ruta__titulo">Retiro por desempleo</h3>
+              <p class="ruta__lema">Retira de tu Afore cuando más lo necesitas.</p>
+              <p>Si dejaste de trabajar con seguro social, una parte de tu ahorro puede estar disponible. Revisamos gratis si cumples los requisitos y te guiamos en el trámite.</p>
+              <ul class="ruta__lista">
+                <li>No estar laborando con seguro social</li>
+                <li>Haber cotizado mínimo de 2 a 3 años</li>
+                <li>No haber realizado retiro en los últimos 5 años</li>
+              </ul>
+              <a class="btn btn--oscuro" href="#contacto" data-wa data-msg="Hola, vi la página de AVANZA y me interesa el Retiro por desempleo de mi Afore. Quiero mi prevalidación gratuita.">
+                Quiero mi prevalidación gratis <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow"/></svg>
+              </a>
+            </div>
+            <div class="ruta__visual">
+              <img src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&w=900&q=70" width="900" height="600" loading="lazy" alt="Fotografía ilustrativa de dinero y ahorro personal">
+              <span class="ruta__gigante" aria-hidden="true">01</span>
+              <span class="ruta__icono" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24"><use href="#i-briefcase"/></svg></span>
+            </div>
+          </article>
+
+          <article class="ruta" id="ruta-mejoravit" style="--acento:#1d4fd8;--acento-2:#5b8cff;--i:1">
+            <div class="ruta__cuerpo">
+              <p class="ruta__num"><b>02</b> / 05</p>
+              <h3 class="ruta__titulo">Mejoravit en efectivo</h3>
+              <p class="ruta__lema">Liquidez para lo que tu familia necesita hoy.</p>
+              <p>Te orientamos en el trámite de Mejoravit en efectivo para que tomes decisiones con información clara, sin prisas y con alguien a tu lado en cada paso.</p>
+              <ul class="ruta__lista">
+                <li>Asesoría personalizada de principio a fin</li>
+                <li>Información clara antes de decidir</li>
+                <li>Acompañamiento en cada paso del trámite</li>
+              </ul>
+              <a class="btn btn--oscuro" href="#contacto" data-wa data-msg="Hola, vi la página de AVANZA y me interesa Mejoravit en efectivo. ¿Me pueden orientar?">
+                Quiero saber si me conviene <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow"/></svg>
+              </a>
+            </div>
+            <div class="ruta__visual">
+              <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=900&q=70" width="900" height="600" loading="lazy" alt="Fotografía ilustrativa de una casa y llaves del hogar">
+              <span class="ruta__gigante" aria-hidden="true">02</span>
+              <span class="ruta__icono" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24"><use href="#i-home"/></svg></span>
+            </div>
+          </article>
+
+          <article class="ruta" id="ruta-imss" style="--acento:#f2a900;--acento-2:#ffd25e;--i:2">
+            <div class="ruta__cuerpo">
+              <p class="ruta__num"><b>03</b> / 05</p>
+              <h3 class="ruta__titulo">Pensión IMSS</h3>
+              <p class="ruta__lema">Después de años de trabajo, tu pensión importa.</p>
+              <p>¿Te dijeron que no tienes derecho a una pensión? Revisemos tu historial. Analizamos tu caso y te acompañamos para recuperar lo que por ley te corresponde.</p>
+              <ul class="ruta__lista">
+                <li>Revisión de tu caso, sin costo</li>
+                <li>Orientación clara sobre tus opciones</li>
+                <li>Seguimiento durante todo el proceso</li>
+              </ul>
+              <a class="btn btn--oscuro" href="#contacto" data-wa data-msg="Hola, vi la página de AVANZA y quiero revisar mi caso de Pensión IMSS.">
+                Quiero revisar mi pensión <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow"/></svg>
+              </a>
+            </div>
+            <div class="ruta__visual">
+              <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=900&q=70" width="900" height="600" loading="lazy" alt="Fotografía ilustrativa de un apretón de manos que representa un acuerdo de confianza">
+              <span class="ruta__gigante" aria-hidden="true">03</span>
+              <span class="ruta__icono" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24"><use href="#i-shield"/></svg></span>
+            </div>
+          </article>
+
+          <article class="ruta" id="ruta-viudez" style="--acento:#6b2fa0;--acento-2:#a773dc;--i:3">
+            <div class="ruta__cuerpo">
+              <p class="ruta__num"><b>04</b> / 05</p>
+              <h3 class="ruta__titulo">Pensión por viudez</h3>
+              <p class="ruta__lema">Tu pareja te dejó un derecho. Hagámoslo valer.</p>
+              <p>Perder a alguien ya es bastante difícil. Te acompañamos con respeto y paciencia para que solicites el beneficio que le corresponde a tu familia.</p>
+              <ul class="ruta__lista">
+                <li>Trato humano y paciencia en cada paso</li>
+                <li>Te decimos con claridad qué sigue</li>
+                <li>Acompañamiento durante todo el trámite</li>
+              </ul>
+              <a class="btn btn--oscuro" href="#contacto" data-wa data-msg="Hola, vi la página de AVANZA y necesito orientación para la Pensión por viudez.">
+                Quiero que me acompañen <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow"/></svg>
+              </a>
+            </div>
+            <div class="ruta__visual">
+              <span class="ruta__gigante" aria-hidden="true">04</span>
+              <span class="ruta__icono" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24"><use href="#i-heart"/></svg></span>
+            </div>
+          </article>
+
+          <article class="ruta" id="ruta-datos" style="--acento:#0e8a9e;--acento-2:#4fd0e3;--i:4">
+            <div class="ruta__cuerpo">
+              <p class="ruta__num"><b>05</b> / 05</p>
+              <h3 class="ruta__titulo">Corrección de datos</h3>
+              <p class="ruta__lema">Datos correctos, trámites sin tropiezos.</p>
+              <p>Un error en tu historial del IMSS o en tu acta puede detener cualquier trámite. Lo corregimos contigo, de forma rápida y sencilla, para que puedas continuar.</p>
+              <ul class="ruta__lista">
+                <li>Actualización de documentos</li>
+                <li>Corrección de datos en IMSS y en tu acta</li>
+                <li>Menos vueltas, más resultados</li>
+              </ul>
+              <a class="btn btn--oscuro" href="#contacto" data-wa data-msg="Hola, vi la página de AVANZA y necesito corregir mis datos (IMSS / acta). ¿Me pueden ayudar?">
+                Quiero corregir mis datos <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow"/></svg>
+              </a>
+            </div>
+            <div class="ruta__visual">
+              <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=900&q=70" width="900" height="600" loading="lazy" alt="Fotografía ilustrativa de documentos y firma de un trámite">
+              <span class="ruta__gigante" aria-hidden="true">05</span>
+              <span class="ruta__icono" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24"><use href="#i-id"/></svg></span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════ 5 · RETIRO POR DESEMPLEO (foco, volante 3D y verificador) ═════════ -->
+    <section class="retiro" id="retiro" aria-labelledby="retiro-titulo">
+      <div class="retiro__fondo" aria-hidden="true">
+        <span class="retiro__brillo retiro__brillo--1" data-parallax="-0.1"></span>
+        <span class="retiro__brillo retiro__brillo--2" data-parallax="0.12"></span>
+      </div>
+
+      <div class="contenedor retiro__grid">
+        <div class="retiro__texto">
+          <p class="etiqueta rev"><i></i> Retiro por desempleo de tu Afore</p>
+          <h2 class="retiro__titulo rev" id="retiro-titulo" style="--d:.08s">
+            Puedes obtener hasta
+            <span class="monto">$<span data-contar="35192">35,192</span><small>.00</small></span>
+          </h2>
+          <p class="lead lead--claro rev" style="--d:.14s">
+            Monto de referencia de nuestra campaña. Revisamos tu caso con una <strong>prevalidación gratuita</strong>:
+            sin compromiso y sin costo, para que sepas si cumples los requisitos.
+          </p>
+
+          <ol class="requisitos">
+            <li class="requisito rev" style="--d:.05s">
+              <span class="requisito__ico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-id"/></svg></span>
+              <p><b>No estar laborando</b> con seguro social.</p>
+            </li>
+            <li class="requisito rev" style="--d:.15s">
+              <span class="requisito__ico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-calendar"/></svg></span>
+              <p><b>Haber cotizado</b> mínimo de 2 a 3 años.</p>
+            </li>
+            <li class="requisito rev" style="--d:.25s">
+              <span class="requisito__ico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-clock"/></svg></span>
+              <p><b>No haber realizado retiro</b> en los últimos 5 años.</p>
+            </li>
+          </ol>
+
+          <p class="retiro__nota rev">El monto final depende de cada caso. La prevalidación gratuita revisa si cumples los requisitos.</p>
+
+          <div class="retiro__acciones rev">
+            <a class="btn btn--primario btn--grande" href="#contacto" data-mag data-wa data-msg="Hola, vi la página de AVANZA y quiero saber si cumplo los requisitos para el Retiro por desempleo de mi Afore.">
+              Quiero saber si cumplo <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="retiro__visual">
+          <svg class="sello" viewBox="0 0 200 200" aria-hidden="true">
+            <defs>
+              <path id="circulo-sello" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/>
+            </defs>
+            <circle class="sello__fondo" cx="100" cy="100" r="96"/>
+            <text class="sello__texto"><textPath href="#circulo-sello" textLength="486" lengthAdjust="spacing">PREVALIDACIÓN GRATUITA • SIN COMPROMISO • SIN COSTO •</textPath></text>
+            <g class="sello__centro"><circle cx="100" cy="100" r="34"/><path d="M84 101 l11 11 l22 -24"/></g>
+          </svg>
+
+          <div class="flyer" data-inclinar>
+            <button class="flyer__boton" type="button" data-ampliar="assets/img/campana-retiro-desempleo.jpg" data-alt="Volante de AVANZA: Retiro por desempleo de tu Afore, puedes obtener hasta $35,192.00, requisitos y prevalidación gratuita" aria-label="Ampliar el volante de retiro por desempleo de tu Afore">
+              <img src="assets/img/campana-retiro-desempleo.jpg" width="1024" height="1536" loading="lazy" alt="Volante de AVANZA: Retiro por desempleo de tu Afore, puedes obtener hasta $35,192.00, requisitos y prevalidación gratuita">
+              <span class="flyer__brillo" aria-hidden="true"></span>
+              <span class="flyer__pista"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-plus"/></svg> Ver en grande</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Verificador de requisitos -->
+      <div class="contenedor">
+        <div class="verificador rev" id="verificador">
+          <div class="verificador__cabeza">
+            <p class="sobretitulo sobretitulo--verde">Compruébalo en 10 segundos</p>
+            <h3>¿Cumples los 3 requisitos?</h3>
+            <p>Marca lo que aplica a tu caso. Es solo una guía: la confirmación llega con tu prevalidación gratuita.</p>
+          </div>
+
+          <fieldset class="verificador__campos">
+            <legend class="sr-only">Requisitos para el retiro por desempleo</legend>
+            <label class="interruptor">
+              <input type="checkbox" name="req" value="Ya no estoy laborando con seguro social">
+              <span class="interruptor__pista" aria-hidden="true"></span>
+              <span class="interruptor__texto">Hoy <b>no estoy laborando</b> con seguro social</span>
+            </label>
+            <label class="interruptor">
+              <input type="checkbox" name="req" value="He cotizado mínimo de 2 a 3 años">
+              <span class="interruptor__pista" aria-hidden="true"></span>
+              <span class="interruptor__texto"><b>He cotizado</b> mínimo de 2 a 3 años</span>
+            </label>
+            <label class="interruptor">
+              <input type="checkbox" name="req" value="No he realizado retiro en los últimos 5 años">
+              <span class="interruptor__pista" aria-hidden="true"></span>
+              <span class="interruptor__texto"><b>No he hecho un retiro</b> en los últimos 5 años</span>
+            </label>
+          </fieldset>
+
+          <div class="verificador__resultado" aria-live="polite">
+            <div class="anillo">
+              <svg viewBox="0 0 80 80" aria-hidden="true">
+                <circle class="anillo__pista" cx="40" cy="40" r="34"/>
+                <circle class="anillo__avance" cx="40" cy="40" r="34" pathLength="3"/>
+              </svg>
+              <span class="anillo__n"><b data-verif-n>0</b>/3</span>
+            </div>
+            <div class="verificador__mensaje">
+              <p class="verificador__titulo" data-verif-titulo>Marca lo que aplica a tu caso</p>
+              <p data-verif-texto>Te mostramos al instante qué tan cerca estás de avanzar.</p>
+            </div>
+            <a class="btn btn--primario" href="#contacto" data-verif-cta data-wa data-msg="Hola, vi la página de AVANZA y quiero mi prevalidación gratuita para el Retiro por desempleo.">
+              Quiero mi prevalidación gratis <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════ 6 · MÉTODO (línea de tiempo que se dibuja con el scroll) ═════════ -->
+    <section class="metodo" id="metodo" aria-labelledby="metodo-titulo">
+      <div class="contenedor metodo__grid">
+        <div class="metodo__intro">
+          <div class="rev">
+            <p class="sobretitulo">Así avanzamos contigo</p>
+            <h2 class="titulo" id="metodo-titulo">Cuatro pasos. <em>Cero vueltas</em> innecesarias.</h2>
+            <p class="lead">Trámites ágiles y acompañamiento real: sabrás qué sigue en cada momento y con quién hablar.</p>
+            <a class="btn btn--oscuro" href="#contacto" data-wa data-msg="Hola, vi la página de AVANZA y estoy listo para dar el primer paso. ¿Cómo empezamos?">
+              Estoy listo para empezar <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <ol class="pasos">
+          <li class="pasos__riel" aria-hidden="true"><span class="pasos__relleno"></span><span class="pasos__marcador"><svg viewBox="0 0 200 200"><use href="#emblema"/></svg></span></li>
+
+          <li class="paso">
+            <span class="paso__n">01</span>
+            <div class="paso__tarjeta">
+              <h3>Escríbenos o agenda tu cita</h3>
+              <p>Por WhatsApp o en persona, de lunes a viernes de 10:00 a 19:00 h. Si prefieres mayor comodidad, agenda una cita y revisamos la disponibilidad de tiempo.</p>
+            </div>
+          </li>
+          <li class="paso">
+            <span class="paso__n">02</span>
+            <div class="paso__tarjeta">
+              <h3>Prevalidación gratuita</h3>
+              <p>Revisamos si cumples con los requisitos, sin compromiso y sin costo. Sabrás dónde estás parado antes de dar cualquier otro paso.</p>
+            </div>
+          </li>
+          <li class="paso">
+            <span class="paso__n">03</span>
+            <div class="paso__tarjeta">
+              <h3>Te acompañamos en tu trámite</h3>
+              <p>Te decimos qué necesitas y damos seguimiento contigo. Asesoría personalizada, información protegida y un proceso sin complicaciones innecesarias.</p>
+            </div>
+          </li>
+          <li class="paso">
+            <span class="paso__n">04</span>
+            <div class="paso__tarjeta">
+              <h3>Avanzas con tranquilidad</h3>
+              <p>Con tu proceso claro y en marcha, sigues adelante. Gracias a tu confianza, avanzamos juntos.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ═════════ 7 · HISTORIAS REALES (la lona se abre con el scroll) ═════════ -->
+    <section class="historias" id="historias" aria-labelledby="historias-titulo">
+      <div class="contenedor">
+        <div class="encabezado encabezado--centro rev">
+          <p class="sobretitulo">Historias reales</p>
+          <h2 class="titulo" id="historias-titulo">Historias que <em>cambiaron vidas.</em></h2>
+          <p class="lead">Personas como tú lograron soluciones reales con nuestro apoyo. Así luce la lona de historias de AVANZA: desliza para abrirla en grande.</p>
+        </div>
+      </div>
+
+      <div class="expandir" data-expandir>
+        <button class="expandir__lienzo" type="button" data-ampliar="assets/img/historias-reales.jpg" data-alt="Lona de AVANZA Historias reales que cambiaron vidas: retiro por desempleo, Mejoravit en efectivo, pensión IMSS, pensión por viudez y corrección de datos" aria-label="Ampliar la lona Historias reales que cambiaron vidas">
+          <img src="assets/img/historias-reales.jpg" width="1200" height="561" loading="lazy" alt="Lona de AVANZA Historias reales que cambiaron vidas: retiro por desempleo, Mejoravit en efectivo, pensión IMSS, pensión por viudez y corrección de datos">
+          <span class="expandir__pista"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-plus"/></svg> Toca para ver en grande</span>
+        </button>
+      </div>
+
+      <div class="relatos" aria-label="Relatos de la lona Historias reales de AVANZA">
+        <div class="relatos__pista">
+          <ul class="relatos__lista">
+            <li class="relato" style="--acento:#7bb61a">
+              <span class="relato__etiqueta">Retiro por desempleo</span>
+              <blockquote><p>Con nuestro retiro por desempleo pudimos reunir el capital para abrir nuestro primer negocio. Hoy vivimos de nuestro propio esfuerzo.</p></blockquote>
+            </li>
+            <li class="relato" style="--acento:#1d4fd8">
+              <span class="relato__etiqueta">Mejoravit en efectivo</span>
+              <blockquote><p>Gracias a Mejoravit en efectivo liquidamos nuestras deudas y solventamos gastos de escuelas de nuestros hijos sin preocuparnos por los intereses.</p></blockquote>
+            </li>
+            <li class="relato" style="--acento:#f2a900">
+              <span class="relato__etiqueta">Pensión IMSS</span>
+              <blockquote><p>Después de más de 30 años de trabajo nos dijeron que no teníamos derecho a una pensión. En AVANZA recuperamos lo que por ley nos corresponde.</p></blockquote>
+            </li>
+            <li class="relato" style="--acento:#6b2fa0">
+              <span class="relato__etiqueta">Pensión por viudez</span>
+              <blockquote><p>Cuando mi esposo falleció pensé que había perdido también el derecho a su pensión. En AVANZA me ayudaron a obtener el beneficio que él trabajó durante toda su vida.</p></blockquote>
+            </li>
+            <li class="relato" style="--acento:#0e8a9e">
+              <span class="relato__etiqueta">Corrección de datos</span>
+              <blockquote><p>Pasé más de tres años intentando corregir mis datos en el IMSS y en mi acta. En AVANZA fue rápido, sencillo y finalmente pude continuar con mi proceso.</p></blockquote>
+            </li>
+          </ul>
+          <ul class="relatos__lista" aria-hidden="true">
+            <li class="relato" style="--acento:#7bb61a">
+              <span class="relato__etiqueta">Retiro por desempleo</span>
+              <blockquote><p>Con nuestro retiro por desempleo pudimos reunir el capital para abrir nuestro primer negocio. Hoy vivimos de nuestro propio esfuerzo.</p></blockquote>
+            </li>
+            <li class="relato" style="--acento:#1d4fd8">
+              <span class="relato__etiqueta">Mejoravit en efectivo</span>
+              <blockquote><p>Gracias a Mejoravit en efectivo liquidamos nuestras deudas y solventamos gastos de escuelas de nuestros hijos sin preocuparnos por los intereses.</p></blockquote>
+            </li>
+            <li class="relato" style="--acento:#f2a900">
+              <span class="relato__etiqueta">Pensión IMSS</span>
+              <blockquote><p>Después de más de 30 años de trabajo nos dijeron que no teníamos derecho a una pensión. En AVANZA recuperamos lo que por ley nos corresponde.</p></blockquote>
+            </li>
+            <li class="relato" style="--acento:#6b2fa0">
+              <span class="relato__etiqueta">Pensión por viudez</span>
+              <blockquote><p>Cuando mi esposo falleció pensé que había perdido también el derecho a su pensión. En AVANZA me ayudaron a obtener el beneficio que él trabajó durante toda su vida.</p></blockquote>
+            </li>
+            <li class="relato" style="--acento:#0e8a9e">
+              <span class="relato__etiqueta">Corrección de datos</span>
+              <blockquote><p>Pasé más de tres años intentando corregir mis datos en el IMSS y en mi acta. En AVANZA fue rápido, sencillo y finalmente pude continuar con mi proceso.</p></blockquote>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="contenedor relatos__nota">Relatos tomados de la lona «Historias reales» de AVANZA. Los resultados dependen de cada caso.</p>
+
+      <div class="contenedor historias__cta rev">
+        <p class="historias__frase">La próxima historia de éxito <em>puede ser la tuya.</em></p>
+        <a class="btn btn--primario btn--grande" href="#contacto" data-mag data-wa data-msg="Hola, vi la página de AVANZA y quiero que mi caso sea la próxima historia de éxito. ¿Me pueden orientar?">
+          Quiero mi historia de éxito <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- ═════════ 8 · POR QUÉ AVANZA (bento con luz que sigue al cursor) ═════════ -->
+    <section class="confianza" id="confianza" aria-labelledby="confianza-titulo">
+      <div class="confianza__fondo" aria-hidden="true"></div>
+      <div class="contenedor">
+        <div class="encabezado rev">
+          <p class="sobretitulo sobretitulo--verde">Por qué AVANZA</p>
+          <h2 class="titulo titulo--claro" id="confianza-titulo">Soluciones reales para <em>tu futuro.</em></h2>
+          <p class="lead lead--claro">Te ayudamos a lograr lo que parece imposible, con un acompañamiento que se nota desde el primer mensaje.</p>
+        </div>
+
+        <div class="bento">
+          <article class="tile tile--grande rev">
+            <div class="tile__sello" aria-hidden="true">
+              <svg viewBox="0 0 120 120"><circle class="giro-1" cx="60" cy="60" r="52"/><circle class="giro-2" cx="60" cy="60" r="38"/><path d="M42 61 l13 13 l25 -28"/></svg>
+            </div>
+            <h3>Prevalidación gratuita</h3>
+            <p>Revisa si cumples con los requisitos sin compromiso y sin costo. Es el primer paso para avanzar con certeza y sin sorpresas.</p>
+            <a class="enlace-flecha" href="#contacto" data-wa data-msg="Hola, vi la página de AVANZA y quiero mi prevalidación gratuita.">
+              Pedir mi prevalidación <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow"/></svg>
+            </a>
+          </article>
+
+          <article class="tile rev" style="--d:.08s">
+            <span class="tile__ico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-users"/></svg></span>
+            <h3>Asesoría personalizada</h3>
+            <p>Estamos contigo en cada paso. Tu caso no es un número: es una historia.</p>
+          </article>
+
+          <article class="tile rev" style="--d:.16s">
+            <span class="tile__ico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-bolt"/></svg></span>
+            <h3>Trámites ágiles</h3>
+            <p>Menos vueltas, más resultados. Sin complicaciones ni trámites innecesarios.</p>
+          </article>
+
+          <article class="tile rev" style="--d:.24s">
+            <span class="tile__ico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-lock"/></svg></span>
+            <h3>Seguridad y confianza</h3>
+            <p>Protegemos tu información y tu tranquilidad.</p>
+          </article>
+
+          <article class="tile rev" style="--d:.32s">
+            <span class="tile__ico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-target"/></svg></span>
+            <h3>Soluciones reales</h3>
+            <p>Te ayudamos a lograr lo que parece imposible.</p>
+          </article>
+
+          <article class="tile tile--ancha rev">
+            <svg class="tile__chev" viewBox="0 0 200 200" aria-hidden="true"><use href="#emblema"/></svg>
+            <p class="tile__lema">Gracias a tu confianza, <em>avanzamos juntos.</em></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════ 9 · TU ASESORA ═════════ -->
+    <section class="asesora" id="asesora" aria-labelledby="asesora-titulo">
+      <div class="contenedor">
+        <div class="asesora__tarjeta rev">
+          <div class="asesora__avatar" aria-hidden="true">
+            <span class="asesora__aro asesora__aro--1"></span>
+            <span class="asesora__aro asesora__aro--2"></span>
+            <span class="asesora__iniciales">IM</span>
+            <svg class="asesora__chev" viewBox="0 0 200 200"><use href="#emblema"/></svg>
+          </div>
+          <div class="asesora__texto">
+            <p class="sobretitulo">Tu asesora</p>
+            <h2 class="titulo titulo--medio" id="asesora-titulo">Ivonne Montero</h2>
+            <p class="asesora__rol">Asesoría para trámites de seguridad social</p>
+            <p>Detrás de cada trámite hay una persona. Ivonne te escucha, revisa tu caso y te explica con claridad qué sigue, para que no tengas que descifrar el papeleo por tu cuenta.</p>
+            <div class="asesora__acciones">
+              <a class="btn btn--primario" href="#contacto" data-wa data-msg="Hola Ivonne, vi la página de AVANZA y me gustaría platicar mi caso contigo.">
+                Quiero platicar mi caso <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow"/></svg>
+              </a>
+              <a class="btn btn--linea" href="https://www.facebook.com/share/19iYEbYrXS/" target="_blank" rel="noopener noreferrer">
+                <svg class="ico ico--relleno" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-fb"/></svg> Facebook de Ivonne Montero
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════ 10 · PREGUNTAS FRECUENTES ═════════ -->
+    <section class="faq" id="faq" aria-labelledby="faq-titulo">
+      <div class="contenedor faq__grid">
+        <div class="faq__intro rev">
+          <p class="sobretitulo">Preguntas frecuentes</p>
+          <h2 class="titulo" id="faq-titulo">Resolvemos tus dudas <em>antes de empezar.</em></h2>
+          <p class="lead">¿No ves la tuya? Escríbenos y te respondemos con gusto.</p>
+          <a class="btn btn--oscuro" href="#contacto" data-wa data-msg="Hola, vi la página de AVANZA y tengo una duda sobre mi trámite.">
+            Quiero preguntar mi duda <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow"/></svg>
+          </a>
+        </div>
+
+        <div class="faq__lista">
+          <details class="faq__item rev">
+            <summary><span>¿Qué necesito para el retiro por desempleo de mi Afore?</span><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-plus"/></svg></summary>
+            <div class="faq__resp"><p>Los requisitos son tres: no estar laborando con seguro social, haber cotizado mínimo de 2 a 3 años y no haber realizado un retiro en los últimos 5 años. Si tienes dudas sobre alguno, la prevalidación gratuita lo revisa contigo.</p></div>
+          </details>
+          <details class="faq__item rev" style="--d:.05s">
+            <summary><span>¿Cuánto cuesta la prevalidación?</span><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-plus"/></svg></summary>
+            <div class="faq__resp"><p>Nada. La prevalidación es gratuita y sin compromiso: revisamos si cumples con los requisitos antes de que decidas cualquier cosa. La asesoría también es gratuita y personalizada.</p></div>
+          </details>
+          <details class="faq__item rev" style="--d:.1s">
+            <summary><span>¿Qué trámites pueden ayudarme a resolver?</span><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-plus"/></svg></summary>
+            <div class="faq__resp"><p>Te acompañamos en el retiro por desempleo de tu Afore, Mejoravit en efectivo, pensión IMSS, pensión por viudez y corrección de datos y actualización de documentos.</p></div>
+          </details>
+          <details class="faq__item rev" style="--d:.15s">
+            <summary><span>Me dijeron que no tengo derecho a una pensión. ¿Aún puedo hacer algo?</span><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-plus"/></svg></summary>
+            <div class="faq__resp"><p>Cada caso es distinto. Revisamos tu historial y tus datos para entender qué pasó y qué opciones tienes. Escríbenos y lo analizamos contigo, sin costo y sin compromiso.</p></div>
+          </details>
+          <details class="faq__item rev" style="--d:.2s">
+            <summary><span>¿Cómo agendo una cita y cuál es el horario?</span><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-plus"/></svg></summary>
+            <div class="faq__resp"><p>Atendemos de lunes a viernes de 10:00 a 19:00 h en Plaza Alameda. Si prefieres mayor comodidad, agenda tu cita por WhatsApp y revisamos la disponibilidad de tiempo.</p></div>
+          </details>
+          <details class="faq__item rev" style="--d:.25s">
+            <summary><span>¿Mi información está protegida?</span><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-plus"/></svg></summary>
+            <div class="faq__resp"><p>Tu información es parte de tu tranquilidad y la protegemos. Trámite seguro, rápido y confiable: así trabajamos en AVANZA.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════ 11 · CONTACTO ═════════ -->
+    <section class="contacto" id="contacto" aria-labelledby="contacto-titulo">
+      <div class="contacto__fondo" aria-hidden="true">
+        <span class="aurora aurora--1"></span>
+        <span class="aurora aurora--2"></span>
+        <span class="contacto__chev" data-parallax="0.1"><svg viewBox="0 0 200 200"><use href="#emblema-mono"/></svg></span>
+      </div>
+      <div class="contenedor contacto__grid">
+        <div class="contacto__izq">
+          <p class="sobretitulo sobretitulo--verde rev">Da el primer paso hoy</p>
+          <h2 class="contacto__titulo rev" id="contacto-titulo" style="--d:.06s">
+            La próxima historia de éxito <em>puede ser la tuya.</em>
+          </h2>
+          <p class="lead lead--claro rev" style="--d:.12s">Cuéntanos tu caso. Te respondemos por WhatsApp, con paciencia y sin compromiso.</p>
+
+          <address class="datos rev" style="--d:.18s">
+            <a class="dato" href="#contacto" data-wa data-msg="Hola, vi la página de AVANZA y quiero información.">
+              <span class="dato__ico"><svg class="ico ico--relleno" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg></span>
+              <span><small>WhatsApp</small><b data-wa-numero>Escríbenos por WhatsApp</b></span>
+            </a>
+            <div class="dato">
+              <span class="dato__ico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-clock"/></svg></span>
+              <span><small>Horario de atención</small><b>Lunes a viernes de 10:00 a 19:00 h</b><em>O agenda tu cita y revisamos la disponibilidad.</em></span>
+            </div>
+            <a class="dato" href="https://maps.app.goo.gl/CWQzp2diq2K6Z6kbA?g_st=aw" target="_blank" rel="noopener noreferrer">
+              <span class="dato__ico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-pin"/></svg></span>
+              <span><small>Ubicación</small><b>Plaza Alameda</b><em>Abrir en Google Maps</em></span>
+            </a>
+            <a class="dato" href="https://www.facebook.com/share/19iYEbYrXS/" target="_blank" rel="noopener noreferrer">
+              <span class="dato__ico"><svg class="ico ico--relleno" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-fb"/></svg></span>
+              <span><small>Facebook</small><b>Ivonne Montero</b><em>Asesoría para trámites de seguridad social</em></span>
+            </a>
+          </address>
+        </div>
+
+        <form class="formulario rev" id="formulario" novalidate style="--d:.1s">
+          <h3 class="formulario__titulo">Cuéntanos tu caso</h3>
+          <p class="formulario__sub">Al enviar, se abrirá WhatsApp con tu mensaje listo.</p>
+
+          <div class="campo">
+            <label for="f-nombre">Tu nombre</label>
+            <input id="f-nombre" name="nombre" type="text" autocomplete="name" required minlength="2" placeholder="Ej. María Pérez">
+            <span class="campo__error" data-error="nombre" role="alert"></span>
+          </div>
+
+          <div class="campo">
+            <label for="f-tramite">¿Qué trámite te interesa?</label>
+            <select id="f-tramite" name="tramite" required>
+              <option value="">Elige una opción</option>
+              <option>Retiro por desempleo de mi Afore</option>
+              <option>Mejoravit en efectivo</option>
+              <option>Pensión IMSS</option>
+              <option>Pensión por viudez</option>
+              <option>Corrección de datos</option>
+              <option>No estoy seguro, quiero orientación</option>
+            </select>
+            <span class="campo__error" data-error="tramite" role="alert"></span>
+          </div>
+
+          <fieldset class="campo campo--opciones">
+            <legend>¿Cómo prefieres que te atendamos?</legend>
+            <label class="opcion"><input type="radio" name="via" value="Prefiero que me atiendan por WhatsApp ahora" checked><span>Por WhatsApp ahora</span></label>
+            <label class="opcion"><input type="radio" name="via" value="Quiero agendar una cita en Plaza Alameda"><span>Agendar una cita</span></label>
+          </fieldset>
+
+          <div class="campo">
+            <label for="f-mensaje">Cuéntanos un poco (opcional)</label>
+            <textarea id="f-mensaje" name="mensaje" rows="3" placeholder="Ej. Dejé de trabajar hace 6 meses y quiero saber si puedo retirar mi Afore."></textarea>
+          </div>
+
+          <button class="btn btn--primario btn--grande btn--bloque" type="submit" data-enviar>
+            Quiero mi prevalidación gratis <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow"/></svg>
+          </button>
+          <p class="formulario__estado" data-estado role="status" aria-live="polite"></p>
+          <p class="formulario__nota"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-lock"/></svg> Tus datos solo se usan para atender tu consulta.</p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═════════ Pie de página ═════════ -->
+  <footer class="pie">
+    <div class="contenedor pie__grid">
+      <div class="pie__marca">
+        <a class="marca marca--pie" href="#inicio" aria-label="AVANZA consultoría financiera, volver al inicio">
+          <img src="assets/logo-avanza.jpg" width="1189" height="662" loading="lazy" alt="AVANZA consultoría financiera">
+        </a>
+        <p>Gracias a tu confianza, avanzamos juntos.</p>
+      </div>
+
+      <nav class="pie__nav" aria-label="Navegación del pie de página">
+        <h2>Explora</h2>
+        <ul>
+          <li><a href="#rutas">Trámites</a></li>
+          <li><a href="#retiro">Retiro de Afore</a></li>
+          <li><a href="#metodo">Cómo avanzamos</a></li>
+          <li><a href="#historias">Historias reales</a></li>
+          <li><a href="#faq">Preguntas frecuentes</a></li>
+        </ul>
+      </nav>
+
+      <div class="pie__info">
+        <h2>Atención</h2>
+        <ul>
+          <li>Lunes a viernes de 10:00 a 19:00 h</li>
+          <li>Plaza Alameda</li>
+          <li><a href="https://maps.app.goo.gl/CWQzp2diq2K6Z6kbA?g_st=aw" target="_blank" rel="noopener noreferrer">Cómo llegar</a></li>
+          <li><a href="https://www.facebook.com/share/19iYEbYrXS/" target="_blank" rel="noopener noreferrer">Facebook de Ivonne Montero</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="contenedor pie__legal">
+      <p>© <span data-anio>2026</span> AVANZA Consultoría Financiera. Todos los derechos reservados.</p>
+      <p>Los resultados dependen de cada caso. Los nombres de instituciones y programas mencionados pertenecen a sus respectivos titulares y se citan solo con fines informativos.</p>
+    </div>
+  </footer>
+
+  <!-- Botón flotante de WhatsApp (abajo a la derecha) -->
+  <a class="wa-flotante" href="#contacto" data-wa data-msg="Hola, vi la página de AVANZA y quiero información." aria-label="Escríbenos por WhatsApp">
+    <span class="wa-flotante__onda" aria-hidden="true"></span>
+    <svg class="ico ico--relleno" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg>
+    <span class="wa-flotante__texto">¿Hablamos?</span>
+  </a>
+
+  <!-- Visor para ampliar imágenes -->
+  <div class="visor" id="visor" role="dialog" aria-modal="true" aria-label="Imagen ampliada" hidden>
+    <button class="visor__cerrar" type="button" data-cerrar-visor aria-label="Cerrar imagen ampliada">
+      <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <div class="visor__marco">
+      <img alt="" class="visor__img">
+    </div>
+  </div>
+
+  <!-- Emblema reutilizable (chevrón de la marca) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="emblema" viewBox="0 0 200 200">
+      <path d="M14 172 L100 24 L186 172 L152 172 L100 82 L48 172 Z" fill="currentColor"/>
+      <path d="M66 172 L100 112 L134 172 L113 172 L100 148 L87 172 Z" fill="#7bb61a"/>
+    </symbol>
+    <symbol id="emblema-mono" viewBox="0 0 200 200">
+      <path d="M14 172 L100 24 L186 172 L152 172 L100 82 L48 172 Z M66 172 L100 112 L134 172 L113 172 L100 148 L87 172 Z" fill="currentColor"/>
+    </symbol>
+  </svg>
+
+</body>
+</html>

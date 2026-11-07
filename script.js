@@ -12,7 +12,7 @@
      Si se deja vacío, el botón flotante, los CTA y el envío del formulario
      se ocultan con elegancia.
      --------------------------------------------------------------------- */
-  const WHATSAPP_NUMERO = '524424536038';
+  const WHATSAPP_NUMERO = '524424610916';
   const MENSAJE_BASE = 'Hola, vi la página de AVANZA y quiero información.';
 
   /* ---------- Utilidades ---------- */

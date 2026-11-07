@@ -2016,7 +2016,7 @@ html:not(.anime-ok) .tarjeta__in {
   border: 0;
   border-radius: calc((1 - var(--p, 1)) * 36px + 10px);
   background: #fff;
-  cursor: zoom-in;
+  cursor: default;
   transform: rotateX(calc((1 - var(--p, 1)) * 16deg)) scale(calc(0.74 + var(--p, 1) * 0.26));
   transform-origin: 50% 60%;
   box-shadow: 0 70px 110px -44px rgba(2, 19, 64, 0.6), 0 0 0 1px rgba(2, 19, 64, 0.08);
